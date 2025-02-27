@@ -137,6 +137,16 @@ footer p {
   margin-top: 8px;
 }
 
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.images img {
+  width: 100%;
+  aspect-ratio: 1/ 1;
+}
+
 :root {
   --page-padding: 48px;
   --page-subtitle-margin-y: 32px;
